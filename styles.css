@@ -8,9 +8,9 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #09090B;
-    color: #D9D9D9 ;
+    color: #D9D9D9;
     margin: 0;
-}   
+}
 
 #nombreLogo {
     font-size: 16px;
@@ -19,47 +19,21 @@ body {
     margin: 0;
 }
 
-nav{
+nav {
     display: none;
 }
 
-#button-login{
+#button-login {
     border: none;
     background: none;
     color: #D9D9D9;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
+    cursor: pointer;
 }
 
-#button-sign_up{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 28px;
-    color:#18181B;
-    border: none;
-    border-radius: 6px;
-    background-color: #FAFAFA;
-    padding: 2px 8px;
-}
-
-h1{
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: -1.2%;
-    text-align: center;
-    color: #FAFAFA;
-}
-
-p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    color: #D9D9D9;
-}
-
-.get-started{
+#button-sign_up {
     font-weight: 600;
     font-size: 14px;
     line-height: 28px;
@@ -67,61 +41,174 @@ p{
     border: none;
     border-radius: 6px;
     background-color: #FAFAFA;
+    padding: 2px 8px;
+    cursor: pointer;
 }
 
-h2{
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2%;
+    text-align: center;
+    color: #FAFAFA;
+    margin: 0;
+}
+
+h2 {
     font-weight: 600;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -0.75%;
+    margin: 0;
 }
 
-footer a{
+h3, p {
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #D9D9D9;
+}
+
+footer a {
     color: #D9D9D9;
     text-decoration: none;
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
-
 }
 
-/*PONIENDO ESTILOS DISPLAY FLEX*/
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom:1px solid #27272A;
+    border-bottom: 1px solid #27272A;
     padding: 16px;
 }
 
-#divLogoName{
+#divLogoName {
     display: flex;
     gap: 12px;
-    align-items: center
+    align-items: center;
 }
 
-#buttons-header{
+#buttons-header {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-main{
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
     padding: 44px 32px 96px 32px;
-    gap: 32px;
 }
 
-.align-items-center{
+.align-items-center {
     text-align: center;
 }
 
-.get-started{
+.get-started {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6px;
+    width: 122px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #18181B;
+    border: none;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    cursor: pointer;
 }
 
-#section1{
-    display: flex
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.get-in-touch {
+    color: #FAFAFA;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2%;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    gap: 24px;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 8px;
+}
+
+.feature-card img {
+    margin-bottom: 12px;
+}
+
+.feature-card h3 {
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.feature-card p {
+    color: #A1A1AA;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.p-size {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+footer {
+    border-top: 1px solid #27272A;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.a-footer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
 }

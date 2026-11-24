@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo-pandem.png" type="image/x-icon">
     <title>Prueba Examen</title>
 </head>
 <body>
     <header>
-        <div id="divLogoName">
-            <img width="20px" height="23px" src="img/logo-pandem.png" alt="Logo Pandem">
-            <p id="nombreLogo">Pandem</p>
-        </div>
-        <div>
+        <div id="left-header">
+            <div id="divLogoName">
+                <img width="20px" height="23px" src="img/logo-pandem.png" alt="Logo Pandem">
+                <p id="nombreLogo">Pandem</p>
+            </div>
             <nav>
                 <a href="">Docs</a>
                 <a href="">Pricing</a>
@@ -21,21 +22,25 @@
                 <a href="">Contact Us</a>
             </nav>
         </div>
+
         <div id="buttons-header">
             <button id="button-login">Login</button>
             <button id="button-sign_up">Sign Up</button>
             <img width="24px" height="24px" src="img/logo-menu.png" alt="Logo Menu">
         </div>
-    </header>
+</header>
     <main>
         <section id="section1">
-            <h1>Information you need during on-call emergencies</h1>
-            <p class="align-items-center">Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.</p>
+            <h1>Information you need during <span>on-call emergencies</span></h1>
+            <p class="align-items-center">Quickly link new on-call tickets to similar past incidents and their solutions. All <span>directly in Slack the moment an incident happens.</span></p>
             <button class="get-started">Get Started ></button>
             <img src="img/imagen-cv.png" width="311px" height="192px" alt="Imgen Web CV Grande">
         </section>
         <section class="second-part">
-            <h2 class="align-items-center">Immediate Solutions, Less Stress</h2>
+            <h2 class="align-items-center">
+                <span class="solo-mobile">Immediate Solutions, Less Stress</span>
+                <span class="solo-desktop">Quick solutions, less stress</span>
+            </h2>
             <div class="features-container">
                 <div class="feature-card">
                     <img width="56px" src="img/logo-reloj.png" alt="Logo Reloj">
@@ -55,14 +60,14 @@
             </div>
         </section>
         <section class="second-part">
-            <h2 class="align-items-center">Instant setup, no custom code</h2>
-            <p class="align-items-center">Invite the bot, pick a channel, and you're set—no custom code needed, and no vendor lock-in.</p>
-            <img src="img/imagen-cv.png" width="311px" height="192px" alt="Imagen CV Pequeña">
+            <h2 class="align-items-center instant-setup">Instant setup, no custom code</h2>
+            <p class="align-items-center p-size">Invite the bot, pick a channel, and you're set—no custom code needed, and no vendor lock-in.</p>
+            <img class="second-part-img" src="img/imagen-cv.png" width="311px" height="192px" alt="Imagen CV Pequeña">
         </section>
         <section class="second-part">
             <h3 class="align-items-center get-in-touch">Get in touch</h3>
             <p class="align-items-center p-size">Request a demo, or hop on a call.</p>
-            <button class="get-started">Get Started ></button>
+            <button class="get-started last-button">Get Started ></button>
         </section>
     </main>
     <footer>

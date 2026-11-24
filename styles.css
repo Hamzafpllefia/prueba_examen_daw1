@@ -33,6 +33,10 @@ nav {
     cursor: pointer;
 }
 
+#button-login:hover {
+    color: #FAFAFA;
+}
+
 #button-sign_up {
     font-weight: 600;
     font-size: 14px;
@@ -43,6 +47,10 @@ nav {
     background-color: #FAFAFA;
     padding: 2px 8px;
     cursor: pointer;
+}
+
+#button-sign_up:hover {
+    background-color: #E4E4E7;
 }
 
 h1 {
@@ -130,6 +138,10 @@ main {
     cursor: pointer;
 }
 
+.get-started:hover {
+    background-color: #E4E4E7;
+}
+
 #section1 {
     display: flex;
     flex-direction: column;
@@ -211,4 +223,111 @@ footer {
     display: flex;
     gap: 12px;
     align-items: center;
+}
+
+#left-header {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.solo-desktop {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    h1 span {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #D9D9D9;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0%;
+    }
+
+    nav a:hover {
+        color: #FAFAFA;
+    }
+
+    #buttons-header img {
+        display: none;
+    }
+
+    #buttons-header{
+        gap:32px
+    }
+    #button-sign_up {
+        width: 85px;
+        height: 32px;
+        padding: 2px 16px 2px 16px;
+    }
+
+
+    #section1 p {
+        font-size: 18px;
+        line-height: 24px; 
+        font-weight: 400;
+    }
+
+    #section1 p span {
+        display: block;
+    }
+
+    #section1 img{
+        width: 1024px;
+        height: 632px;
+    }
+
+    .second-part-img{
+        width: 672px;
+        height: 416px;
+    }
+    
+    .solo-mobile {
+        display: none;
+    }
+
+    .solo-desktop {
+        display: inline;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: -1.2%;
+    }
+    
+    .features-container {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1024px;
+        gap: 48px;
+    }
+
+    .feature-card {
+        flex: 1;
+    }
+
+    .instant-setup{
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: -1.2%;
+    }
+
+    .last-button{
+        width: 328px;
+        height: 22px;
+        padding: 2px 16px 2px 16px;
+        gap: 8px;
+
+    }
 }
